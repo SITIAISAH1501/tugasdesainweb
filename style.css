@@ -1,0 +1,127 @@
+/* Main content styles */
+.wrapper {
+    max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ /* Home section styles */
+ #home {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+ }
+ 
+ #home .p {
+     width: 50%;
+ }
+ 
+ #home .kolom {
+     width: 50%;
+     padding: 20px;
+ }
+ 
+ #home h2 {
+     font-size: 28px;
+     margin-top: 20px;
+ }
+ 
+ #home p {
+     margin-top: 10px;
+ }
+ 
+ #home a.tbl-pink {
+     background-color: #FF69B4;
+     padding: 10px 20px;
+     border-radius: 5px;
+     color: white;
+     text-decoration: none;
+     display: inline-block;
+     margin-top: 10px;
+ }
+ 
+ #contact {
+     background-color: #4a4c57;
+     color: white;
+     padding: 20px 0;
+ }
+ 
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 0 20px;
+ }
+ 
+ .footer .footer-section {
+     flex: 1;
+     padding: 20px;
+ }
+ 
+ .footer h3 {
+     font-size: 24px;
+     margin-bottom: 10px;
+ }
+ 
+ .footer p {
+     margin-top: 10px;
+ }
+ 
+ /* Tutors section styles */
+ #tutors {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+ }
+ 
+ #tutors .kolom {
+     width: 50%;
+     padding: 20px;
+ }
+ 
+ #tutors h2 {
+     font-size: 28px;
+     margin-top: 20px;
+ }
+ 
+ #tutors p {
+     margin-top: 10px;
+ }
+ 
+ #tutors .tutor-list {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+ }
+ 
+ #tutors .kartu-tutor {
+     text-align: center;
+ }
+ 
+ #tutors .kartu-tutor img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     margin: 10px auto;
+ }
+ 
+ .scrollTop{
+     position: fixed;
+     bottom: 30px;
+     left: 1200px;
+     padding: 10px 15px;
+     background-color: rgb(251, 251, 252);
+     border-radius: 5px;
+     border-radius: 1px solid rgb(251, 251, 252);
+     cursor: pointer;
+     transition: all 0.5s ease 0s;
+  }
+ 
+  .scrollTop:hover{
+     color: #000;
+     background-color: rgb(251, 251, 252);
+  }
+ 
+ /* Add more specific styles as needed */
